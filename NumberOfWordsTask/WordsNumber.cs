@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace NumberOfWordsTask
 {
+    /// <summary>
+    /// Number of words in text
+    /// </summary>
     public class WordsNumber
     {
+        /// <summary>
+        /// Number words finder
+        /// </summary>
+        /// <param name="str">string</param>
+        /// <returns>number f words</returns>
         public static int WordFrequency(string str)
         {
             if (ReferenceEquals(str, null))
@@ -16,6 +24,11 @@ namespace NumberOfWordsTask
             return WordsNum(strArr);
         }
 
+        /// <summary>
+        /// Method delete all symbols
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns>string without symbols</returns>
         private static string ParseWord(string str)
         {
             char[] ch = str.ToCharArray();
@@ -27,6 +40,11 @@ namespace NumberOfWordsTask
             return new string(ch);
         }
 
+        /// <summary>
+        /// words counter
+        /// </summary>
+        /// <param name="strArr">array of words</param>
+        /// <returns>number of words in array</returns>
         private static int WordsNum(string[] strArr)
         {
             int wordsNum = 0;

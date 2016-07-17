@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTask", "TimerTask\Time
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTastTests", "TimerTastTests\TimerTastTests.csproj", "{B1465D8D-BEC2-4F21-943E-137F3A16ECF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfWordsTask", "NumberOfWordsTask\NumberOfWordsTask.csproj", "{8FCEEF45-64E9-47DD-8FCA-0794FC447D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfWordsTaskTests", "NumberOfWordsTaskTests\NumberOfWordsTaskTests.csproj", "{AA1A1F91-B391-46EE-B6A3-260DDDFDF3E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B1465D8D-BEC2-4F21-943E-137F3A16ECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1465D8D-BEC2-4F21-943E-137F3A16ECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1465D8D-BEC2-4F21-943E-137F3A16ECF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCEEF45-64E9-47DD-8FCA-0794FC447D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCEEF45-64E9-47DD-8FCA-0794FC447D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCEEF45-64E9-47DD-8FCA-0794FC447D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCEEF45-64E9-47DD-8FCA-0794FC447D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1A1F91-B391-46EE-B6A3-260DDDFDF3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1A1F91-B391-46EE-B6A3-260DDDFDF3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1A1F91-B391-46EE-B6A3-260DDDFDF3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1A1F91-B391-46EE-B6A3-260DDDFDF3E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
